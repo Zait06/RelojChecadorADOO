@@ -179,7 +179,7 @@ public class inicio extends javax.swing.JFrame {
             else
             {JOptionPane.showMessageDialog(null, "Numero de empleado incorrecto, intente de nuevo", "ERROR", JOptionPane.INFORMATION_MESSAGE);}
             this.jNumeroT.setText("");
-        }catch(Exception ex){System.out.println("Error: "+ex);}
+        }catch(Exception ex){JOptionPane.showMessageDialog(null, "Hay un problema con algo, por favor, intente más tarde", "ERROR", JOptionPane.WARNING_MESSAGE);}
     }//GEN-LAST:event_jSalidaActionPerformed
 
     private void jEntradaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jEntradaActionPerformed
