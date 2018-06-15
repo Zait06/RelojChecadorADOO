@@ -162,7 +162,7 @@ public class inicio extends javax.swing.JFrame {
         {
             //Conexion a la bse de datos
             Connection con;
-            con=(Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/sae","root","quetzal");
+            con=(Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/sae","root","");
             // Creación de instancia
             Statement stant=con.createStatement();
             //Ejecutar sql
@@ -192,7 +192,7 @@ public class inicio extends javax.swing.JFrame {
         {
             //Conexion a la bse de datos
             Connection con;
-            con=(Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/sae","root","quetzal");
+            con=(Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/sae","root","");
             // Creación de instancia
             Statement stant=con.createStatement();
             //Ejecutar sql
